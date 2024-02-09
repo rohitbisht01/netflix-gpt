@@ -1,19 +1,11 @@
 ## Netflix GPT
 
+NetflixGPT is a React application powered by Firebase, Tailwind CSS, and Redux Toolkit, designed to provide a seamless movie browsing experience enhanced with AI-generated recommendations.
+
 ### Features
 
-    - Login/Sign Up Form
-        - Login/Sign Up Form
-        - Redirect to Browse Page
+    1.Login/Sign Up Form: Securely log in or sign up to access the full features of the application.
 
-    - Browse (after authentication)
-        - Header
-        - Main Movie
-            - Trailer in Background
-            - Title and Description
-            - MovieSuggestions
-                - MovieLists * N
+    2.Home Page: Featured movie with trailer, title, description, and related suggestions.
 
-    - Netflix GPT
-        - Search Bar
-        - Movie Suggestions
+    3.Movie Suggestions: AI-generated recommendations based on user preferences.
