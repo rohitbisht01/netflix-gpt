@@ -9,7 +9,7 @@ import {
 } from "firebase/auth";
 import { addUser } from "../utils/userSlice";
 import { useDispatch } from "react-redux";
-import { IMG_URL } from "../utils/constants";
+import { IMG_URL, NETFLIX_BG_IMAGE } from "../utils/constants";
 
 const Login = () => {
   const dispatch = useDispatch();
@@ -102,10 +102,7 @@ const Login = () => {
     <div>
       <Header />
       <div className="absolute">
-        <img
-          src="https://wallpapers.com/images/hd/netflix-background-gs7hjuwvv2g0e9fj.jpg"
-          alt="netflix background image"
-        />
+        <img src={NETFLIX_BG_IMAGE} alt="netflix background image" />
       </div>
       <form className="w-3/12 absolute p-12 my-36 mx-auto left-0 right-0 bg-black text-white bg-opacity-75">
         <h1 className="font-semibold text-[28px] mb-4">
